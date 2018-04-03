@@ -214,7 +214,7 @@ ul{
 	margin-bottom:5px;
 	padding-bottom:5px;
 	position:relative;
-	background:url(/web/20101005085015im_/http://bilibili.us/templets/images/titlesos_bg.gif) no-repeat left bottom;
+	background:url(images/titlesos_bg.gif) no-repeat left bottom;
 }
 .viewbox .titlesos .sf{
 	position:absolute;
@@ -314,7 +314,7 @@ ul{
 	height:40px;
 	overflow:hidden;
 	border:none;
-	background:url(/web/20101005085015im_/http://bilibili.us/templets/images/soso-bt-qiu.png) no-repeat;
+	background:url(images/soso-bt-qiu.png) no-repeat;
 	background-position:0px 0px;
 }
 .main .Search .search-submit:hover{
@@ -333,13 +333,13 @@ ul{
 }
 .main #num .num_bg_left{
 	float:left;
-	background:url(/web/20101005085015im_/http://bilibili.us/templets/images/num-left-bg.png);
+	background:url(images/num-left-bg.png);
 	background-repeat:no-repeat;
 	height:40px;
 	width:8px;
 }
 .main #num .num_bg{
-	background:url(/web/20101005085015im_/http://bilibili.us/templets/images/num-bg.png) repeat-x top left;
+	background:url(images/num-bg.png) repeat-x top left;
 	float:left;
 	height:40px;
 	width:630px;
@@ -351,7 +351,7 @@ ul{
 	margin-right:9px;
 }
 .main #num .num_bg .num_r_bg{
-	background:url(/web/20101005085015im_/http://bilibili.us/templets/images/num_bg_fgf.gif) no-repeat right 4px;
+	background:url(images/num_bg_fgf.gif) no-repeat right 4px;
 	margin-right:9px;
 	float:left;
 }
@@ -369,7 +369,7 @@ ul{
 	TEXT-DECORATION:none;
 }
 .main #num .num_bg_right{
-	background:url(/web/20101005085015im_/http://bilibili.us/templets/images/num-right-bg.png) no-repeat left top;
+	background:url(images/num-right-bg.png) no-repeat left top;
 	float:left;
 	height:40px;
 	width:12px;
@@ -392,46 +392,46 @@ ul{
 	BACKGROUND: url(images/icon_douga.gif) no-repeat 3px 7px;
 }
 .main #num .num_bg a.mc{
-	PADDING-LEFT: 27px; BACKGROUND: url(/web/20101005085015im_/http://bilibili.us/templets/images/icon_mc.gif) no-repeat 0px 6px;
+	PADDING-LEFT: 27px; BACKGROUND: url(images/icon_mc.gif) no-repeat 0px 6px;
 }
 .main #num .num_bg a.mc:hover{
 	color:#0C0;
-	BACKGROUND: url(/web/20101005085015im_/http://bilibili.us/templets/images/icon_mc.gif) no-repeat 3px 7px;
+	BACKGROUND: url(images/icon_mc.gif) no-repeat 3px 7px;
 }
 
 
 .main #num .num_bg a.game{
-	PADDING-LEFT: 27px; BACKGROUND: url(/web/20101005085015im_/http://bilibili.us/templets/images/icon_game.gif) no-repeat 0px 6px;
+	PADDING-LEFT: 27px; BACKGROUND: url(images/icon_game.gif) no-repeat 0px 6px;
 }
 .main #num .num_bg a.game:hover{
 	color:#b43636;
-	BACKGROUND: url(/web/20101005085015im_/http://bilibili.us/templets/images/icon_game.gif) no-repeat 3px 7px;
+	BACKGROUND: url(images/icon_game.gif) no-repeat 3px 7px;
 }
 
 .main #num .num_bg a.happy{
-	PADDING-LEFT: 27px; BACKGROUND: url(/web/20101005085015im_/http://bilibili.us/templets/images/icon_happy.gif) no-repeat 0px 6px;
+	PADDING-LEFT: 27px; BACKGROUND: url(images/icon_happy.gif) no-repeat 0px 6px;
 }
 .main #num .num_bg a.happy:hover{
 	color:#2a9dc4;
-	BACKGROUND: url(/web/20101005085015im_/http://bilibili.us/templets/images/icon_happy.gif) no-repeat 3px 7px;
+	BACKGROUND: url(images/icon_happy.gif) no-repeat 3px 7px;
 }
 
 .main #num .num_bg a.jh{
-	PADDING-LEFT: 27px; BACKGROUND: url(/web/20101005085015im_/http://bilibili.us/templets/images/icon_jh.gif) no-repeat 0px 6px;
+	PADDING-LEFT: 27px; BACKGROUND: url(images/icon_jh.gif) no-repeat 0px 6px;
 }
 .main #num .num_bg a.jh:hover{
 	color:#7331d3;
-	BACKGROUND: url(/web/20101005085015im_/http://bilibili.us/templets/images/icon_jh.gif) no-repeat 3px 7px;
+	BACKGROUND: url(images/icon_jh.gif) no-repeat 3px 7px;
 }
 
 .main #num .num_bg a.xinp{
-	PADDING-LEFT: 27px; BACKGROUND: url(/web/20101005085015im_/http://bilibili.us/templets/images/icon_xinp.gif) no-repeat 0px 6px;
+	PADDING-LEFT: 27px; BACKGROUND: url(images/icon_xinp.gif) no-repeat 0px 6px;
 }
 .main #num .num_bg a.xinp:hover{
 	color:#e984ec;
-	BACKGROUND: url(/web/20101005085015im_/http://bilibili.us/templets/images/icon_xinp.gif) no-repeat 3px 7px;
+	BACKGROUND: url(images/icon_xinp.gif) no-repeat 3px 7px;
 }
-.main #num .num_bg a.moh{ width:28px; height:25px; position:absolute; right:0px; top:3px; BACKGROUND: url(/web/20101005085015im_/http://bilibili.us/templets/images/moh.gif) no-repeat 1px 3px;} .main #num .num_bg a.moh:hover{color:#333;BACKGROUND: url(/web/20101005085015im_/http://bilibili.us/templets/images/moh.gif) no-repeat 2px 2px;}
+.main #num .num_bg a.moh{ width:28px; height:25px; position:absolute; right:0px; top:3px; BACKGROUND: url(images/moh.gif) no-repeat 1px 3px;} .main #num .num_bg a.moh:hover{color:#333;BACKGROUND: url(images/moh.gif) no-repeat 2px 2px;}
 
 
 /*引用*/
@@ -439,7 +439,7 @@ ul{
 	display: none;
 	width:500px;
 	height:117px;
-	background:url(/web/20101005085015im_/http://bilibili.us/templets/images/gif-gj.gif) repeat-x top left;
+	background:url(images/gif-gj.gif) repeat-x top left;
 	border:#CCCCCC solid 1px;
 	padding-left:30px;
 	padding-top:5px;
@@ -513,7 +513,7 @@ ul{
 .sellm
 {
 	padding:3px 2px 2px 46px;
-	background:url(/web/20101005085015im_/http://bilibili.us/templets/images/arrowb.gif) no-repeat 2px 5px;
+	background:url(images/arrowb.gif) no-repeat 2px 5px;
 	height:16px;
 	position:absolute;
 	left:3px;
