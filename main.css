@@ -10,7 +10,7 @@ body{
 	color:#333;
 	behavior: url(/web/20101005085015im_/http://bilibili.us/images/ssp.htc); /*可在IE6,7中对非<a>元素使用hover等伪类*/
 	text-align:center;
-	background:url(/header_bg_fall.gif) no-repeat left top;
+	background:url(header_bg_fall.gif) no-repeat left top;
 }
 .logobg{
 	width:100%;
