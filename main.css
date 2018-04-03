@@ -377,19 +377,19 @@ ul{
 
 /*图标部分*/
 .main #num .num_bg a.home{
-	PADDING-LEFT: 27px; BACKGROUND: url(/web/20101005085015im_/http://bilibili.us/templets/images/icon_home.gif) no-repeat 0px 6px;
+	PADDING-LEFT: 27px; BACKGROUND: url(icon_home.gif) no-repeat 0px 6px;
 }
 .main #num .num_bg a.home:hover{
 	color:#333;
-	BACKGROUND: url(/web/20101005085015im_/http://bilibili.us/templets/images/icon_home.gif) no-repeat 3px 7px;
+	BACKGROUND: url(icon_home.gif) no-repeat 3px 7px;
 }
 
 .main #num .num_bg a.douga{
-	PADDING-LEFT: 27px; BACKGROUND: url(/web/20101005085015im_/http://bilibili.us/templets/images/icon_douga.gif) no-repeat 0px 6px;
+	PADDING-LEFT: 27px; BACKGROUND: url(/icon_douga.gif) no-repeat 0px 6px;
 }
 .main #num .num_bg a.douga:hover{
 	color:#FF8e34;
-	BACKGROUND: url(/web/20101005085015im_/http://bilibili.us/templets/images/icon_douga.gif) no-repeat 3px 7px;
+	BACKGROUND: url(/icon_douga.gif) no-repeat 3px 7px;
 }
 .main #num .num_bg a.mc{
 	PADDING-LEFT: 27px; BACKGROUND: url(/web/20101005085015im_/http://bilibili.us/templets/images/icon_mc.gif) no-repeat 0px 6px;
