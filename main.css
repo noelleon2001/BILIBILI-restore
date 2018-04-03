@@ -10,7 +10,7 @@ body{
 	color:#333;
 	behavior: url(/web/20101005085015im_/http://bilibili.us/images/ssp.htc); /*可在IE6,7中对非<a>元素使用hover等伪类*/
 	text-align:center;
-	background:url(/web/20101005085015im_/http://bilibili.us/templets/images/header_bg_fall.gif) no-repeat left top;
+	background:url(/header_bg_fall.gif) no-repeat left top;
 }
 .logobg{
 	width:100%;
@@ -18,7 +18,7 @@ body{
 	display:block;
 }
 .p-bg{
-	background:url(/web/20101005085015im_/http://bilibili.us/templets/images/bilibili.png) no-repeat right top;
+	background-image:url(bilibili.png) no-repeat right top;
 	width:980px;
 	margin:0 auto;
 	display:block;
