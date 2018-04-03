@@ -99,7 +99,7 @@ ul{
 .tags{
 	margin-bottom:5px;
 	color:#888;
-	background:url(/web/20101005085015im_/http://bilibili.us/templets/images/tag_blue.png) no-repeat right top;
+	background:url(images/tag_blue.png) no-repeat right top;
 	border-bottom:1px solid #EEE;
 	padding-bottom:7px;
 	height:150px;
@@ -162,7 +162,7 @@ ul{
 	color:#F93;
 }
 .viewbox{
-	background:url(/web/20101005085015im_/http://bilibili.us/templets/images/a_bt_bg.gif) no-repeat 0px 3px;
+	background:url(images/a_bt_bg.gif) no-repeat 0px 3px;
 	width:710px;
 	float:left;
 	overflow:hidden;
@@ -226,10 +226,10 @@ ul{
 	display:block;
 	height:24px;
 	width:24px;
-	background:url(/web/20101005085015im_/http://bilibili.us/templets/images/s1.png) no-repeat left top;
+	background:url(images/s1.png) no-repeat left top;
 }
 .viewbox .titlesos .s:hover{
-	background:url(/web/20101005085015im_/http://bilibili.us/templets/images/s2.png) no-repeat left top;
+	background:url(images/s2.png) no-repeat left top;
 	margin-top:1px;
 	margin-left:1px;
 }
@@ -238,16 +238,16 @@ ul{
 	display:block;
 	height:24px;
 	width:24px;
-	background:url(/web/20101005085015im_/http://bilibili.us/templets/images/f1.png) no-repeat left top;
+	background:url(images/f1.png) no-repeat left top;
 }
 .viewbox .titlesos .f:hover{
-	background:url(/web/20101005085015im_/http://bilibili.us/templets/images/f2.png) no-repeat left top;
+	background:url(images/f2.png) no-repeat left top;
 	margin-top:1px;
 	margin-left:1px;
 }
 
 .scontent{
-	background:url(/web/20101005085015im_/http://bilibili.us/templets/images/c-bg.gif) no-repeat left top;
+	background:url(images/c-bg.gif) no-repeat left top;
 	width:960px;
 	overflow:hidden;
 	display:block;
@@ -290,7 +290,7 @@ ul{
 	top:20px;
 	right:5px;
 	width:277px;
-	background:url(/web/20101005085015im_/http://bilibili.us/templets/images/soso-qiu.png) no-repeat top left;
+	background:url(images/soso-qiu.png) no-repeat top left;
 }
 .main .Search .search-keyword{
 	float:left;
@@ -488,7 +488,7 @@ ul{
 }
 .quote .copy{
 	float:left;
-	background:url(/web/20101005085015im_/http://bilibili.us/templets/images/butfz.gif) no-repeat left top;
+	background:url(images/butfz.gif) no-repeat left top;
 	height:21px;
 	width:43px;
 	margin-top:-2px;
