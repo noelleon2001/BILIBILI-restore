@@ -118,7 +118,561 @@ ul{
 .tag3 { color:#6C6; font-size:20px;}
 .tag4 { color:#39F;font-weight:700;font-size:16px;}
 .tag5 { color:#C69;font-size:12px;}
+.main .z .monthtop{
+	width:236px;
+	float:left;
+	overflow:hidden;
+	margin:1px;
+	text-align:center;
+}
 
+.main .z .picnews{
+	overflow:hidden;
+	margin-bottom:10px;
+	width:720px;
+}
+.main .z .picnews .listpg{
+	width:325px;
+	padding:5px;
+	overflow:hidden;
+	position:relative;
+	background:#FFF;
+	border-bottom:1px solid #DBDBDB;
+	border-right:1px solid #DBDBDB;
+}
+.main .z .picnews .listpg img{
+	border:solid 1px #AAA;
+	padding:2px;
+	width:120px;
+	height:90px;
+	overflow:hidden;
+	float:left;
+}
+.main .z .picnews .listpg img:hover{
+	border:solid 1px #333;
+}
+
+.main .z .picnews .listpg .infobox{
+	float:right;
+	width:190px;
+	overflow:hidden;
+}
+
+.main .z .pg .typename{
+	width:180px;
+	padding:5px;
+	overflow:hidden;
+	position:relative;
+	background:#72c0f7;
+	color:#0332fd;
+	border-bottom:1px solid #DBDBDB;
+	border-right:1px solid #DBDBDB;
+	text-align:center;
+	font-size:16px;
+	font-weight:bold;
+}
+
+.main .z .pg .rank{
+	width:40px;
+	padding:5px;
+	overflow:hidden;
+	position:relative;
+	background:#d9e7f1;
+	border-bottom:1px solid #DBDBDB;
+	border-right:1px solid #DBDBDB;
+	text-align:center;
+	font-size:24px;
+}
+.main .z .pg .rankpg{
+	width:180px;
+	padding:5px;
+	overflow:hidden;
+	position:relative;
+	background:#FFF;
+	border-bottom:1px solid #DBDBDB;
+	border-right:1px solid #DBDBDB;
+	text-align:center;
+	vertical-align:top;
+}
+.main .z .pg .rankpg img{
+	border:solid 1px #AAA;
+	padding:2px;
+	width:120px;
+	height:90px;
+	overflow:hidden;
+}
+.main .z .pg .rankpg img:hover{
+	border:solid 1px #333;
+}
+
+.minbox{
+	width:338px;
+	display:block;
+	float:left;
+	margin-left:10px;
+	overflow:hidden;
+	margin-bottom:8px;
+	height:156px;
+	border:1px solid #CCC;
+	background:#F3F3F3;
+}
+.main .z .picnews .sinfo{
+	color:#333;
+	width:325px;
+	padding:5px;
+}
+.main .z .picnews .listpg .infobox .date{
+	margin-bottom:2px;
+	margin-top:2px;
+	padding-left:3px;
+	font-size:11px;
+	color:#999;
+	
+} 
+.main .z .picnews .listpg .infobox .biaoti
+{
+	padding-top:2px;
+	padding-bottom:2px;
+	padding-left:3px;
+	background:#F5F5F5;
+	font-size:12px;
+}
+.main .z .picnews .listpg .infobox .biaoti a{
+	color:#0187C5;
+}
+.main .z .picnews .listpg .infobox .upzhu{
+	display:block;
+	overflow:hidden;
+	padding-left:3px;
+	margin-bottom:3px;
+	font-size:11px;
+	color:#999;
+}
+.main .z .picnews .listpg .infobox .upzhu b{
+	font-weight:normal;
+	font-size:12px;
+}
+.main .z .picnews .listpg .infobox .dinfo{
+	margin-bottom:3px;
+	overflow:hidden;
+	padding-left:3px;
+	font-size:12px;
+	color:#BBB;
+}
+.main .z .picnews .listpg .infobox .dinfo b{
+	font-family:Georgia;
+	font-size:12px;
+	color:#999;
+	font-weight:normal;
+}
+
+.main .z .picnews .pg{
+	width:124px;
+	height:128px;
+	overflow:hidden;
+	position:relative;
+	margin-bottom:10px;
+}
+.main .z .picnews .pg .a-info
+{
+	font-size:12px;
+	border-left:#9EB3FF 2px solid;
+	height:40px;
+	padding-left:3px;
+	margin-left:1px;
+	overflow:hidden;
+	color:#777;
+}
+.main .z .picnews .pg .a-info .upzhu{
+	display:block;
+	height:16px;
+	overflow:hidden;
+	width:120px;
+}
+.main .z .picnews .pg .a-info .upzhu b{
+	font-weight:normal;
+	color:#666;
+}
+.main .z .picnews .pg .a-info .sorid{
+	display:block;
+	width:120px;
+	overflow:hidden;
+	white-space: nowrap;
+	height:16px;
+}
+.main .z .picnews .pg .a-info .sorid b{
+	font-size:11px;
+	color:#F60;
+	font-weight:700;
+}
+
+.main .z .picnews table{
+	margin-left:3px;
+}
+.main .z .picnews .pg img{
+	border:solid 1px #EEE;
+	padding:1px;
+}
+
+.main .z .picnews .pg img:hover{
+	border:solid 1px #CCC;
+}
+.main .z .picnews .pg span{
+	width:120px;
+	display:block;
+	text-align:left;
+	font-size:12px;
+	height:18px;
+	line-height:18px;
+	padding-left:2px;
+	font-family:Tahoma, Geneva, sans-serif;
+	bottom:36px;
+	color:#FFF;
+	left:2px;
+	background:url(/web/20101005085015im_/http://bilibili.us/templets/images/span-bg.png) no-repeat left top;
+	overflow:hidden;
+	position:absolute;
+}
+
+.main .z .picnews .list_hot{
+	width:65px;
+	height:145px;
+	margin-left:2px;
+	float:left;
+	background:url(/web/20101005085015im_/http://bilibili.us/templets/images/list_hot.gif) no-repeat left top;
+}
+.main .z .picnews .ryi{
+	width:50px;
+	height:136px;
+	float:left;
+	background:url(/web/20101005085015im_/http://bilibili.us/templets/images/ryi.gif) no-repeat left top;
+}
+.main .z .picnews .douga{
+	width:690px;
+	height:55px;
+	background:url(/web/20101005085015im_/http://bilibili.us/templets/images/douga.gif) no-repeat left top;
+}
+.main .z .picnews .music{
+	background:url(/web/20101005085015im_/http://bilibili.us/templets/images/music.gif) no-repeat left top;
+	width:690px;
+	height:55px;
+}
+.main .z .picnews .game{
+	background:url(/web/20101005085015im_/http://bilibili.us/templets/images/game.gif) no-repeat left top;
+	width:690px;
+	height:55px;
+}
+.main .z .picnews .happy{
+	background:url(/web/20101005085015im_/http://bilibili.us/templets/images/happy.gif) no-repeat left top;
+	width:690px;
+	height:55px;
+}
+.main .z .picnews .more{
+	float:right;
+	margin-right:15px;
+	margin-top:8px;
+	height:35px;
+	width:80px;
+	background:url(/web/20101005085015im_/http://bilibili.us/templets/images/more-bg.gif) no-repeat left top;
+}
+
+.main .z .picnews .more:hover{
+	margin-right:13px;
+	margin-top:6px;
+}
+
+.main .z{
+	width:980px;
+	margin:0 auto;
+	overflow:hidden;
+	display:block;
+}
+
+.main .z .z-left{
+	width:720px;
+	float:left;
+	overflow:hidden;
+	background:url(/web/20101005085015im_/http://bilibili.us/templets/images/m-left-right-bg.gif) no-repeat right top;
+}
+
+.main .z .z-left .e1{
+	width:710px;
+	overflow:hidden;
+}
+
+.main .z .z-right{
+	width:250px;
+	overflow:hidden;
+	float:right;
+}
+.user{
+	width:250px;
+	height:48px;
+	overflow:hidden;
+	margin-bottom:10px;
+	padding-bottom:10px;
+	background:url(/web/20101005085015im_/http://bilibili.us/templets/images/user-bottom-bg.gif) no-repeat left bottom;
+}
+.user .userinfo{
+	background:url(/web/20101005085015im_/http://bilibili.us/templets/images/usinfo-bg.png) no-repeat top right;
+	padding-right:12px;
+}
+.user .login{
+	text-align:left;
+	padding-top:15px;
+	height:35px;
+	padding-left:35px;
+	color:#666;
+}
+
+.user .userinfo .userface{
+	width:48px;
+	height:48px;
+	padding-top:2px;
+	padding-right:2px;
+	margin-right:4px;
+	background:url(/web/20101005085015im_/http://bilibili.us/templets/images/us-bg.png) no-repeat 0px 0px;
+	overflow:hidden;
+	float:left;
+}
+.user .userinfo .mylink{
+	font-family:"MS Serif", "New York", serif;
+	font-weight:400;
+	color:#888;
+}
+.user .userinfo .mylink a{
+	color:#49F;
+	margin:1px;
+}
+.user .userinfo .welcome{
+	margin-bottom:2px;
+	font-family:Tahoma, Geneva, sans-serif;
+	color:#999;
+}
+.user .userinfo .welcome strong{
+	color:#1C1;
+	margin-right:3px;
+}
+
+.user .userinfo .userface img{
+	width:42px;
+	height:42px;
+	float:right;
+	margin-right:2px;
+}
+.main .z .z-right .newdouga{
+	background:url(/web/20101005085015im_/http://bilibili.us/templets/images/newdouga.gif) no-repeat left top;
+	width:250px;
+	overflow:hidden;
+	padding-top:50px;
+	margin-bottom:10px;
+}
+.main .z .z-right .htdouga{
+	background:url(/web/20101005085015im_/http://bilibili.us/templets/images/dy-hot.gif) no-repeat left top;
+	width:250px;
+	overflow:hidden;
+	padding-top:60px;
+	margin-bottom:0px;
+}
+.main .z .z-right .htdouga .htbox{
+	width:248px;
+	height:140px;
+	overflow:hidden;
+	position:relative;
+	border-bottom:1px solid #EEE;
+	margin-bottom:10px;
+}
+.main .z .z-right .htdouga .htbox .upzhu{
+	position:absolute;
+	top:50px;
+	left:92px;
+	display:block;
+	text-align:left;
+	color:#AAA;
+	width:100px;
+	overflow:hidden;
+	height:16px;
+}
+.main .z .z-right .htdouga .htbox .danmu{
+	position:absolute;
+	top:10px;
+	left:92px;
+	display:block;
+	text-align:left;
+	color:#AAA;
+	width:100px;
+	overflow:hidden;
+	height:16px;
+}
+.main .z .z-right .htdouga .htbox .dianji{
+	position:absolute;
+	top:30px;
+	left:92px;
+	display:block;
+	text-align:left;
+	color:#AAA;
+	width:100px;
+	overflow:hidden;
+	height:16px;
+}
+.main .z .z-right .htdouga .htbox b{
+	color:#F60;
+}
+
+.main .z .z-right .htdouga .htbox .nr1{
+	position:absolute;
+	top:8px;
+	right:7px;
+	width:50px;
+	height:40px;
+	background:url(/web/20101005085015im_/http://bilibili.us/templets/images/1.gif) no-repeat left top;
+}
+.main .z .z-right .htdouga .htbox .nr2{
+	position:absolute;
+	top:8px;
+	right:7px;
+	width:50px;
+	height:40px;
+	background:url(/web/20101005085015im_/http://bilibili.us/templets/images/2.gif) no-repeat left top;
+}
+.main .z .z-right .htdouga .htbox .nr3{
+	position:absolute;
+	top:8px;
+	right:7px;
+	width:50px;
+	height:40px;
+	background:url(/web/20101005085015im_/http://bilibili.us/templets/images/3.gif) no-repeat left top;
+}
+.main .z .z-right .htdouga .htbox .nr4{
+	position:absolute;
+	top:8px;
+	right:7px;
+	width:50px;
+	height:40px;
+	background:url(/web/20101005085015im_/http://bilibili.us/templets/images/4.gif) no-repeat left top;
+}
+.main .z .z-right .htdouga .htbox .nr5{
+	position:absolute;
+	top:8px;
+	right:7px;
+	width:50px;
+	height:40px;
+	background:url(/web/20101005085015im_/http://bilibili.us/templets/images/5.gif) no-repeat left top;
+}
+.main .z .z-right .htdouga .htbox img{
+	margin-left:4px;
+	height:63px;
+	width:80px;
+	padding-top:2px;
+	padding-bottom:6px;
+	padding-left:2px;
+	padding-right:2px;
+	background:url(/web/20101005085015im_/http://bilibili.us/templets/images/ht-img-bg.png) no-repeat left top;
+}
+.main .z .z-right .htdouga .htbox .htinfo{
+	width:248px;
+	height:625px;
+	overflow:hidden;
+}
+.main .z .z-right .htdouga .info{
+	width:248px;
+	overflow:hidden;
+	height:20px;
+	display:block;
+}
+.main .z .z-right .htdouga .htbox .htinfo .biaoti{
+	font-size:12px;
+	font-weight:700;
+	height:17px;
+	padding-top:2px;
+	padding-left:5px;
+	overflow:hidden;
+	margin-bottom:4px;
+}
+.main .z .z-right .htdouga .htbox .htinfo .biaoti a{
+	color:#069;
+}
+.main .z .z-right .htdouga .htbox .htinfo .jianjie{
+	font-size:12px;
+	height:32px;
+	padding-right:4px;
+	padding-left:4px;
+	overflow:hidden;
+	color:#AAA;
+}
+.main .z .z-right ul li{
+	width:247px;
+	display:block;
+	overflow:hidden;
+	height:16px;
+	margin-top:5px;
+	margin-bottom:5px;
+	background:url(/web/20101005085015im_/http://bilibili.us/templets/images/ico-comment-quote.gif) no-repeat 1px 7px;
+}
+.main .z .z-right ul li a{
+	width:185px;
+	padding-top:2px;
+	margin-left:15px;
+	color:#6692ff;
+	overflow:hidden;
+	white-space:nowrap;
+	float:left;
+}
+.main .z .z-right ul li a:hover {
+	color:#ff45b2;
+}
+.main .z .z-right ul li span.date{
+	float:right;
+	color:#999;
+}
+
+.a-uinfo{
+	width:240px;
+	overflow:hidden;
+	float:right;
+	position:relative;
+	margin-right:7px;
+}
+
+.a-uinfo .u-face{
+	float:left;
+	width:77px;
+	height:81px;
+	overflow:hidden;
+	background:url(/web/20101005085015im_/http://bilibili.us/templets/images/face_frame.png) no-repeat left top;
+}
+.a-uinfo .u-face img{
+	width:73px;
+	height:73px;
+	margin-left:2px;
+	margin-top:2px;
+}
+.a-uinfo .r-info{
+	margin-top:5px;
+	float:right;
+	padding-left:5px;
+	width:155px;
+	color:#bbb;
+	padding-bottom:25px;
+	position:relative;
+}
+.a-uinfo .r-info .spacemore{
+	position:absolute;
+	width:50px;
+	height:20px;
+	padding-left:18px;
+	bottom:0px;
+	right:0px;
+	background:url(/web/20101005085015im_/http://bilibili.us/templets/images/sps-bg.gif) no-repeat left top;
+}
+.a-uinfo .r-info .usname{
+	margin-bottom:5px;
+	padding-bottom:5px;
+	border-bottom:1px solid #EEE;
+}
+.a-uinfo .r-info .usname a{
+	font-size:12px;
+}
 
 .minbox{
 	width:338px;
