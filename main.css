@@ -73,7 +73,7 @@ ul{
 #indexgg1{margin-bottom:5px;}
 #rightqh1{border-bottom:1px solid #EEE; padding-bottom:10px;margin-bottom:5px;}
 .main{
-	
+
 	position:relative;
 	width:980px;
 	margin:0 auto;
@@ -103,7 +103,7 @@ ul{
 	border-bottom:1px solid #EEE;
 	padding-bottom:7px;
 	height:150px;
-	
+
 }
 .tags span{
 	cursor:hand;
@@ -227,8 +227,8 @@ ul{
 	padding-left:3px;
 	font-size:11px;
 	color:#999;
-	
-} 
+
+}
 .main .z .picnews .listpg .infobox .biaoti
 {
 	padding-top:2px;
@@ -329,7 +329,7 @@ ul{
 	bottom:36px;
 	color:#FFF;
 	left:2px;
-	background:url(/web/20101005085015im_/http://bilibili.us/templets/images/span-bg.png) no-repeat left top;
+	background:url(images/span-bg.png) no-repeat left top;
 	overflow:hidden;
 	position:absolute;
 }
@@ -339,31 +339,31 @@ ul{
 	height:145px;
 	margin-left:2px;
 	float:left;
-	background:url(/web/20101005085015im_/http://bilibili.us/templets/images/list_hot.gif) no-repeat left top;
+	background:url(images/list_hot.gif) no-repeat left top;
 }
 .main .z .picnews .ryi{
 	width:50px;
 	height:136px;
 	float:left;
-	background:url(/web/20101005085015im_/http://bilibili.us/templets/images/ryi.gif) no-repeat left top;
+	background:url(images/ryi.gif) no-repeat left top;
 }
 .main .z .picnews .douga{
 	width:690px;
 	height:55px;
-	background:url(/web/20101005085015im_/http://bilibili.us/templets/images/douga.gif) no-repeat left top;
+	background:url(images/douga.gif) no-repeat left top;
 }
 .main .z .picnews .music{
-	background:url(/web/20101005085015im_/http://bilibili.us/templets/images/music.gif) no-repeat left top;
+	background:url(images/music.gif) no-repeat left top;
 	width:690px;
 	height:55px;
 }
 .main .z .picnews .game{
-	background:url(/web/20101005085015im_/http://bilibili.us/templets/images/game.gif) no-repeat left top;
+	background:url(images/game.gif) no-repeat left top;
 	width:690px;
 	height:55px;
 }
 .main .z .picnews .happy{
-	background:url(/web/20101005085015im_/http://bilibili.us/templets/images/happy.gif) no-repeat left top;
+	background:url(images/happy.gif) no-repeat left top;
 	width:690px;
 	height:55px;
 }
@@ -373,7 +373,7 @@ ul{
 	margin-top:8px;
 	height:35px;
 	width:80px;
-	background:url(/web/20101005085015im_/http://bilibili.us/templets/images/more-bg.gif) no-repeat left top;
+	background:url(images/more-bg.gif) no-repeat left top;
 }
 
 .main .z .picnews .more:hover{
@@ -392,7 +392,7 @@ ul{
 	width:720px;
 	float:left;
 	overflow:hidden;
-	background:url(/web/20101005085015im_/http://bilibili.us/templets/images/m-left-right-bg.gif) no-repeat right top;
+	background:url(images/m-left-right-bg.gif) no-repeat right top;
 }
 
 .main .z .z-left .e1{
@@ -411,10 +411,10 @@ ul{
 	overflow:hidden;
 	margin-bottom:10px;
 	padding-bottom:10px;
-	background:url(/web/20101005085015im_/http://bilibili.us/templets/images/user-bottom-bg.gif) no-repeat left bottom;
+	background:url(images/user-bottom-bg.gif) no-repeat left bottom;
 }
 .user .userinfo{
-	background:url(/web/20101005085015im_/http://bilibili.us/templets/images/usinfo-bg.png) no-repeat top right;
+	background:url(images/usinfo-bg.png) no-repeat top right;
 	padding-right:12px;
 }
 .user .login{
@@ -431,7 +431,7 @@ ul{
 	padding-top:2px;
 	padding-right:2px;
 	margin-right:4px;
-	background:url(/web/20101005085015im_/http://bilibili.us/templets/images/us-bg.png) no-repeat 0px 0px;
+	background:urlimages/us-bg.png) no-repeat 0px 0px;
 	overflow:hidden;
 	float:left;
 }
@@ -461,14 +461,14 @@ ul{
 	margin-right:2px;
 }
 .main .z .z-right .newdouga{
-	background:url(/web/20101005085015im_/http://bilibili.us/templets/images/newdouga.gif) no-repeat left top;
+	background:url(images/newdouga.gif) no-repeat left top;
 	width:250px;
 	overflow:hidden;
 	padding-top:50px;
 	margin-bottom:10px;
 }
 .main .z .z-right .htdouga{
-	background:url(/web/20101005085015im_/http://bilibili.us/templets/images/dy-hot.gif) no-repeat left top;
+	background:url(images/dy-hot.gif) no-repeat left top;
 	width:250px;
 	overflow:hidden;
 	padding-top:60px;
@@ -525,7 +525,7 @@ ul{
 	right:7px;
 	width:50px;
 	height:40px;
-	background:url(/web/20101005085015im_/http://bilibili.us/templets/images/1.gif) no-repeat left top;
+	background:url(images/1.gif) no-repeat left top;
 }
 .main .z .z-right .htdouga .htbox .nr2{
 	position:absolute;
@@ -533,7 +533,7 @@ ul{
 	right:7px;
 	width:50px;
 	height:40px;
-	background:url(/web/20101005085015im_/http://bilibili.us/templets/images/2.gif) no-repeat left top;
+	background:url(images/2.gif) no-repeat left top;
 }
 .main .z .z-right .htdouga .htbox .nr3{
 	position:absolute;
@@ -541,7 +541,7 @@ ul{
 	right:7px;
 	width:50px;
 	height:40px;
-	background:url(/web/20101005085015im_/http://bilibili.us/templets/images/3.gif) no-repeat left top;
+	background:url(images/3.gif) no-repeat left top;
 }
 .main .z .z-right .htdouga .htbox .nr4{
 	position:absolute;
@@ -549,7 +549,7 @@ ul{
 	right:7px;
 	width:50px;
 	height:40px;
-	background:url(/web/20101005085015im_/http://bilibili.us/templets/images/4.gif) no-repeat left top;
+	background:url(images/4.gif) no-repeat left top;
 }
 .main .z .z-right .htdouga .htbox .nr5{
 	position:absolute;
@@ -557,7 +557,7 @@ ul{
 	right:7px;
 	width:50px;
 	height:40px;
-	background:url(/web/20101005085015im_/http://bilibili.us/templets/images/5.gif) no-repeat left top;
+	background:url(images/5.gif) no-repeat left top;
 }
 .main .z .z-right .htdouga .htbox img{
 	margin-left:4px;
@@ -567,7 +567,7 @@ ul{
 	padding-bottom:6px;
 	padding-left:2px;
 	padding-right:2px;
-	background:url(/web/20101005085015im_/http://bilibili.us/templets/images/ht-img-bg.png) no-repeat left top;
+	background:url(images/ht-img-bg.png) no-repeat left top;
 }
 .main .z .z-right .htdouga .htbox .htinfo{
 	width:248px;
@@ -607,7 +607,7 @@ ul{
 	height:16px;
 	margin-top:5px;
 	margin-bottom:5px;
-	background:url(/web/20101005085015im_/http://bilibili.us/templets/images/ico-comment-quote.gif) no-repeat 1px 7px;
+	background:url(images/ico-comment-quote.gif) no-repeat 1px 7px;
 }
 .main .z .z-right ul li a{
 	width:185px;
@@ -639,7 +639,7 @@ ul{
 	width:77px;
 	height:81px;
 	overflow:hidden;
-	background:url(/web/20101005085015im_/http://bilibili.us/templets/images/face_frame.png) no-repeat left top;
+	background:url(images/face_frame.png) no-repeat left top;
 }
 .a-uinfo .u-face img{
 	width:73px;
@@ -663,7 +663,7 @@ ul{
 	padding-left:18px;
 	bottom:0px;
 	right:0px;
-	background:url(/web/20101005085015im_/http://bilibili.us/templets/images/sps-bg.gif) no-repeat left top;
+	background:url(images/sps-bg.gif) no-repeat left top;
 }
 .a-uinfo .r-info .usname{
 	margin-bottom:5px;
@@ -679,7 +679,7 @@ ul{
 	display:block;
 	float:left;
 	margin-left:10px;
-	
+
 	margin-bottom:8px;
 	height:156px;
 	border:1px solid #CCC;
@@ -840,7 +840,7 @@ ul{
 .main .Search{
 	height:40px;
 	position:absolute;
-	
+
 	top:20px;
 	right:5px;
 	width:277px;
