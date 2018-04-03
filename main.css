@@ -1,4 +1,4 @@
-html {
+﻿html {
 	margin:0;
 }
 body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,fieldset,input,select,textarea,p,blockquote,th,td{margin:0;padding:0}input,select{vertical-align:baseline}textarea{font-family:"Lucida Grande",Arial,Helvetica,Verdana,sans-serif}input[type=text],input[type=password],textarea{background:#fff;color:#000;font-size:12px}
@@ -8,7 +8,7 @@ body{
 	font-size:12px;
 	font-family:"Lucida Grande",Arial,Helvetica,Verdana,sans-serif;
 	color:#333;
-	behavior: url(/web/20101005085015im_/http://bilibili.us/images/ssp.htc); /*可在IE6,7中对非<a>元素使用hover等伪类*/
+	behavior: url(images/ssp.htc); /*可在IE6,7中对非<a>元素使用hover等伪类*/
 	text-align:center;
 	background:url(images/header_bg_fall.gif) no-repeat left top;
 }
