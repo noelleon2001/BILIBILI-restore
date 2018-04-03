@@ -1,0 +1,551 @@
+html {
+	margin:0;
+}
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,fieldset,input,select,textarea,p,blockquote,th,td{margin:0;padding:0}input,select{vertical-align:baseline}textarea{font-family:"Lucida Grande",Arial,Helvetica,Verdana,sans-serif}input[type=text],input[type=password],textarea{background:#fff;color:#000;font-size:12px}
+body{
+	margin:0;
+	padding:0;
+	font-size:12px;
+	font-family:"Lucida Grande",Arial,Helvetica,Verdana,sans-serif;
+	color:#333;
+	behavior: url(/web/20101005085015im_/http://bilibili.us/images/ssp.htc); /*可在IE6,7中对非<a>元素使用hover等伪类*/
+	text-align:center;
+	background:url(/web/20101005085015im_/http://bilibili.us/templets/images/header_bg_fall.gif) no-repeat left top;
+}
+.logobg{
+	width:100%;
+	background:url(/web/20101005085015im_/http://bilibili.us/templets/images/html-bg.png) repeat-x 0px 130px;
+	display:block;
+}
+.p-bg{
+	background:url(/web/20101005085015im_/http://bilibili.us/templets/images/bilibili.png) no-repeat right top;
+	width:980px;
+	margin:0 auto;
+	display:block;
+}
+strong{
+	font-style:normal;
+}
+.left{
+	float:left;
+}
+.right{
+	float:right;
+}
+p{
+	margin:0;
+}
+input[type="text"],
+textarea {
+	background: #f9f9f9;
+	border: 1px solid #ccc;
+	box-shadow: inset 1px 1px 1px rgba(0,0,0,0.1);
+	-moz-box-shadow: inset 1px 1px 1px rgba(0,0,0,0.1);
+	-webkit-box-shadow: inset 1px 1px 1px rgba(0,0,0,0.1);
+	border-radius: 6px;
+	-moz-border-radius: 6px;
+	-webkit-border-radius: 6px;
+}
+IMG {
+	border:none;
+	-webkit-transition: all 0.5s linear;-o-transition: all 0.5s linear;
+}
+a{
+    blr:expression(this.onFocus=this.blur());   /*    IE Opera    */
+    outline:none;   /*    FF Opera    */
+	color:#0187C5;
+	TEXT-DECORATION: none;
+	-webkit-transition: all 0.5s linear;-o-transition: all 0.5s linear;
+}
+a:focus{
+    -moz-outline-style: none;   /*    FF    */
+}
+a:hover {
+	color:#ff45b2;
+}
+
+ul{
+	list-style:none;
+	padding:0;
+	margin:0;
+}
+#contgg1{text-align:center;}
+#indexgg1{margin-bottom:5px;}
+#rightqh1{border-bottom:1px solid #EEE; padding-bottom:10px;margin-bottom:5px;}
+.main{
+	overflow:hidden;
+	position:relative;
+	width:980px;
+	margin:0 auto;
+	text-align:left;
+	display:block;
+}
+.main .h1{
+	position:absolute;
+	left:5px;
+	top:135px;
+	color:#EEE;
+	font-size:26px;
+	font-family:"微软雅黑","黑体","宋体";
+}
+.main .h1 .titl{float:left;display:block;}
+.main .h1 a{color:#999;margin-left:10px; display:block; padding-top:5px; font-size:18px;border-bottom:3px solid #8dcdf2;float:left;}
+.main .h1 a:hover{color:#5ccdf2;border-bottom:3px solid #EEE;}
+.main .h2{
+	color:#EEE;
+	font-size:26px;
+	font-family:"微软雅黑","黑体","宋体";
+}
+.tags{
+	margin-bottom:5px;
+	color:#888;
+	background:url(/web/20101005085015im_/http://bilibili.us/templets/images/tag_blue.png) no-repeat right top;
+	border-bottom:1px solid #EEE;
+	padding-bottom:7px;
+	height:150px;
+	overflow:hidden;
+}
+.tags span{
+	cursor:hand;
+	cursor:pointer;
+	margin:4px;
+}
+.tags span:hover{
+	border-bottom:2px solid #CCC;
+}
+.tag1 { color:#BBB;font-weight:bold; font-size:14px;}
+.tag2 { color:#F96; font-family:"黑体","宋体"; font-size:26px;}
+.tag3 { color:#6C6; font-size:20px;}
+.tag4 { color:#39F;font-weight:700;font-size:16px;}
+.tag5 { color:#C69;font-size:12px;}
+
+
+.minbox{
+	width:338px;
+	display:block;
+	float:left;
+	margin-left:10px;
+	overflow:hidden;
+	margin-bottom:8px;
+	height:156px;
+	border:1px solid #CCC;
+	background:#F3F3F3;
+}
+
+.intro{
+	background:#F5F5F5;
+	padding:15px;
+	font-size:14px;
+	margin-bottom:10px;
+}
+.tagcontainer{
+	padding: 6px;
+	font-size:14px;
+	margin-bottom:10px;
+	font-size:12px;
+}
+#newtag
+{
+	position: absolute;
+	right: 0px;
+	margin-right: 5px;
+}
+.ipt-txt{
+	border:1px solid #AAA;
+	font-size:14px;
+	color:#888;
+	padding:5px;
+
+}
+
+.viewbox #dianji{
+	color:#F93;
+}
+.viewbox{
+	background:url(/web/20101005085015im_/http://bilibili.us/templets/images/a_bt_bg.gif) no-repeat 0px 3px;
+	width:710px;
+	float:left;
+	overflow:hidden;
+}
+.viewbox h2{
+	padding-left:44px;
+	width:660px;
+	display:block;
+	overflow:hidden;
+	height:32px;
+	font-size:26px;
+	color:#999;
+	font-family:"微软雅黑","幼圆","黑体","宋体";
+}
+.viewbox .tminfo{
+	margin-left:44px;
+	margin-top:6px;
+	color:#888;
+}
+.viewbox .tminfo a{
+	color:#888;
+}
+.viewbox .alist{
+	padding-left:5px;
+	color:#888;
+	line-height:250%;
+}
+.viewbox .alist a{
+
+	margin-right:3px;
+	padding:5px;
+	background:#EFEFEF;
+	font-size:12px;
+}
+.viewbox .alist span.curPage{
+	margin-right:3px;
+	padding:5px;
+	background:#EFEFEF;
+	font-size:12px;
+	color:#AE1212;
+}
+
+
+.viewbox #dedepagetitles{
+	border:solid 1px #EEE;
+	color:#999;
+}
+.viewbox .titlesos{
+	margin-bottom:5px;
+	padding-bottom:5px;
+	position:relative;
+	background:url(/web/20101005085015im_/http://bilibili.us/templets/images/titlesos_bg.gif) no-repeat left bottom;
+}
+.viewbox .titlesos .sf{
+	position:absolute;
+	bottom:10px;
+	right:2px;
+}
+.viewbox .titlesos .s
+{
+	display:block;
+	height:24px;
+	width:24px;
+	background:url(/web/20101005085015im_/http://bilibili.us/templets/images/s1.png) no-repeat left top;
+}
+.viewbox .titlesos .s:hover{
+	background:url(/web/20101005085015im_/http://bilibili.us/templets/images/s2.png) no-repeat left top;
+	margin-top:1px;
+	margin-left:1px;
+}
+.viewbox .titlesos .f
+{
+	display:block;
+	height:24px;
+	width:24px;
+	background:url(/web/20101005085015im_/http://bilibili.us/templets/images/f1.png) no-repeat left top;
+}
+.viewbox .titlesos .f:hover{
+	background:url(/web/20101005085015im_/http://bilibili.us/templets/images/f2.png) no-repeat left top;
+	margin-top:1px;
+	margin-left:1px;
+}
+
+.scontent{
+	background:url(/web/20101005085015im_/http://bilibili.us/templets/images/c-bg.gif) no-repeat left top;
+	width:960px;
+	overflow:hidden;
+	display:block;
+	padding-left:10px;
+	padding-right:10px;
+	margin-top:7px;
+	margin-right:100px;
+	clear:both;
+}
+#googlegg{
+
+}
+#contgg{
+	text-align:center;
+	width:970px;
+	margin:10px;
+}
+
+#hd_bg #topgg{
+	float:right;
+	width:580px;
+	height:70px;
+	margin-top:7px;
+	margin-right:120px;
+}
+
+#hd_bg {
+	height:155px;
+	margin-bottom:15px;
+	text-align:center;
+}
+#hd_bg #logo{
+	float:left;
+	margin-top:10px;
+}
+.main .Search{
+	height:40px;
+	position:absolute;
+	overflow:hidden;
+	top:20px;
+	right:5px;
+	width:277px;
+	background:url(/web/20101005085015im_/http://bilibili.us/templets/images/soso-qiu.png) no-repeat top left;
+}
+.main .Search .search-keyword{
+	float:left;
+	width:179px;
+	color:#6C3;
+	border:none;
+	font-weight:700;
+	padding-top:3px;
+	padding-bottom:3px;
+	font-size:16px;
+	margin-top:8px;
+	overflow:hidden;
+	background:none;
+	margin-left:36px;
+}
+.main .Search .search-submit{
+	display:block;
+	float:left;
+	width:57px;
+	cursor:pointer;
+	height:40px;
+	overflow:hidden;
+	border:none;
+	background:url(/web/20101005085015im_/http://bilibili.us/templets/images/soso-bt-qiu.png) no-repeat;
+	background-position:0px 0px;
+}
+.main .Search .search-submit:hover{
+	background-position:-60px 0px;
+}
+.main .Search .search-option{
+	display:none;
+}
+
+.main #num{
+	height:31px;
+	position:absolute;
+	overflow:hidden;
+	width:650px;
+	top:100px;
+}
+.main #num .num_bg_left{
+	float:left;
+	background:url(/web/20101005085015im_/http://bilibili.us/templets/images/num-left-bg.png);
+	background-repeat:no-repeat;
+	height:40px;
+	width:8px;
+}
+.main #num .num_bg{
+	background:url(/web/20101005085015im_/http://bilibili.us/templets/images/num-bg.png) repeat-x top left;
+	float:left;
+	height:40px;
+	width:630px;
+	overflow:hidden;
+	position:relative;
+}
+.main #num span{
+	float:left;
+	margin-right:9px;
+}
+.main #num .num_bg .num_r_bg{
+	background:url(/web/20101005085015im_/http://bilibili.us/templets/images/num_bg_fgf.gif) no-repeat right 4px;
+	margin-right:9px;
+	float:left;
+}
+.main #num .num_bg a{
+	height:31px;
+	float:left;
+	display:inline;
+	margin-right:13px;
+	color:#777;
+	font-size:14px;
+	padding-top:12px;
+	font-weight:400;
+}
+.main #num .num_bg a:hover{
+	TEXT-DECORATION:none;
+}
+.main #num .num_bg_right{
+	background:url(/web/20101005085015im_/http://bilibili.us/templets/images/num-right-bg.png) no-repeat left top;
+	float:left;
+	height:40px;
+	width:12px;
+}
+
+/*图标部分*/
+.main #num .num_bg a.home{
+	PADDING-LEFT: 27px; BACKGROUND: url(/web/20101005085015im_/http://bilibili.us/templets/images/icon_home.gif) no-repeat 0px 6px;
+}
+.main #num .num_bg a.home:hover{
+	color:#333;
+	BACKGROUND: url(/web/20101005085015im_/http://bilibili.us/templets/images/icon_home.gif) no-repeat 3px 7px;
+}
+
+.main #num .num_bg a.douga{
+	PADDING-LEFT: 27px; BACKGROUND: url(/web/20101005085015im_/http://bilibili.us/templets/images/icon_douga.gif) no-repeat 0px 6px;
+}
+.main #num .num_bg a.douga:hover{
+	color:#FF8e34;
+	BACKGROUND: url(/web/20101005085015im_/http://bilibili.us/templets/images/icon_douga.gif) no-repeat 3px 7px;
+}
+.main #num .num_bg a.mc{
+	PADDING-LEFT: 27px; BACKGROUND: url(/web/20101005085015im_/http://bilibili.us/templets/images/icon_mc.gif) no-repeat 0px 6px;
+}
+.main #num .num_bg a.mc:hover{
+	color:#0C0;
+	BACKGROUND: url(/web/20101005085015im_/http://bilibili.us/templets/images/icon_mc.gif) no-repeat 3px 7px;
+}
+
+
+.main #num .num_bg a.game{
+	PADDING-LEFT: 27px; BACKGROUND: url(/web/20101005085015im_/http://bilibili.us/templets/images/icon_game.gif) no-repeat 0px 6px;
+}
+.main #num .num_bg a.game:hover{
+	color:#b43636;
+	BACKGROUND: url(/web/20101005085015im_/http://bilibili.us/templets/images/icon_game.gif) no-repeat 3px 7px;
+}
+
+.main #num .num_bg a.happy{
+	PADDING-LEFT: 27px; BACKGROUND: url(/web/20101005085015im_/http://bilibili.us/templets/images/icon_happy.gif) no-repeat 0px 6px;
+}
+.main #num .num_bg a.happy:hover{
+	color:#2a9dc4;
+	BACKGROUND: url(/web/20101005085015im_/http://bilibili.us/templets/images/icon_happy.gif) no-repeat 3px 7px;
+}
+
+.main #num .num_bg a.jh{
+	PADDING-LEFT: 27px; BACKGROUND: url(/web/20101005085015im_/http://bilibili.us/templets/images/icon_jh.gif) no-repeat 0px 6px;
+}
+.main #num .num_bg a.jh:hover{
+	color:#7331d3;
+	BACKGROUND: url(/web/20101005085015im_/http://bilibili.us/templets/images/icon_jh.gif) no-repeat 3px 7px;
+}
+
+.main #num .num_bg a.xinp{
+	PADDING-LEFT: 27px; BACKGROUND: url(/web/20101005085015im_/http://bilibili.us/templets/images/icon_xinp.gif) no-repeat 0px 6px;
+}
+.main #num .num_bg a.xinp:hover{
+	color:#e984ec;
+	BACKGROUND: url(/web/20101005085015im_/http://bilibili.us/templets/images/icon_xinp.gif) no-repeat 3px 7px;
+}
+.main #num .num_bg a.moh{ width:28px; height:25px; position:absolute; right:0px; top:3px; BACKGROUND: url(/web/20101005085015im_/http://bilibili.us/templets/images/moh.gif) no-repeat 1px 3px;} .main #num .num_bg a.moh:hover{color:#333;BACKGROUND: url(/web/20101005085015im_/http://bilibili.us/templets/images/moh.gif) no-repeat 2px 2px;}
+
+
+/*引用*/
+.quote{
+	display: none;
+	width:500px;
+	height:117px;
+	background:url(/web/20101005085015im_/http://bilibili.us/templets/images/gif-gj.gif) repeat-x top left;
+	border:#CCCCCC solid 1px;
+	padding-left:30px;
+	padding-top:5px;
+}
+.quote .bbs{
+	margin:2px;
+	float:left;
+	width:470px;
+	padding:3px;
+}
+.quote .htm{
+	margin:2px;
+	float:left;
+	width:470px;
+	padding:3px;
+}
+.quote .clse{
+	margin-top:10px;
+	text-align:right;
+	width:470px;
+}
+.quote .info{
+	text-align:right;
+	font-size:14px;
+	color:#FF6666;
+	float:left;
+	width:450px;
+}
+
+.quote .label{
+	font-size:12px;
+	color:#FF6600;
+	font-weight:700;
+	float:left;
+	margin-top:2px;
+}
+.quote input{
+	border:1px solid #999999;
+	color:#222;
+	font-size:11px;
+	margin-top:1px;
+	margin-right:6px;
+	height:14px;
+	float:left;
+	width:240px;
+}
+.quote .copy{
+	float:left;
+	background:url(/web/20101005085015im_/http://bilibili.us/templets/images/butfz.gif) no-repeat left top;
+	height:21px;
+	width:43px;
+	margin-top:-2px;
+	padding-left:7px;
+	padding-top:4px;
+}
+.quote a{
+	color:#0066CC;
+	font-size:12px;
+	font-weight:700;
+	text-decoration:none;
+}
+.quote a:hover{
+	color:#FF3300;
+	text-decoration:underline;
+}
+/*引用*/
+
+
+
+
+.sellm
+{
+	padding:3px 2px 2px 46px;
+	background:url(/web/20101005085015im_/http://bilibili.us/templets/images/arrowb.gif) no-repeat 2px 5px;
+	height:16px;
+	position:absolute;
+	left:3px;
+	top:134px;
+}
+#sellm{
+float:left;
+height:18px;
+overflow:hidden;
+}
+#sellm span{
+color:#F63;
+margin-right:8px;
+}
+#sellm a{display:block;line-height:18px;text-decoration:none;color:#555;font-family:Arial;font-size:12px;}
+
+#index_online
+{
+	float: right;
+	position: absolute;
+	top: 134px;
+	right: 0px;
+	padding: 3px;
+	color:#BD5E1A;
+}
+.index_conline
+{
+	color:#999;
+	position:relative;
+	left:420px;
+	top:32px;
+	font-size:12px;
+}
+.goplay{ width:360px; height:420px; float:right; margin-right:50px; margin-top:10px; position:relative;}
+.sma{ color:#CCC; position:absolute; bottom:70px; right:15px;}
