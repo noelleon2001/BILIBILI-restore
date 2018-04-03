@@ -10,15 +10,15 @@ body{
 	color:#333;
 	behavior: url(/web/20101005085015im_/http://bilibili.us/images/ssp.htc); /*可在IE6,7中对非<a>元素使用hover等伪类*/
 	text-align:center;
-	background:url(/images/header_bg_fall.gif) no-repeat left top;
+	background:url(images/header_bg_fall.gif) no-repeat left top;
 }
 .logobg{
 	width:100%;
-	background:url(/web/20101005085015im_/http://bilibili.us/templets/images/html-bg.png) repeat-x 0px 130px;
+	background:url(images/html-bg.png) repeat-x 0px 130px;
 	display:block;
 }
 .p-bg{
-	background-image:url(bilibili.png) no-repeat right top;
+	background-image:url(images/bilibili.png) no-repeat right top;
 	width:980px;
 	margin:0 auto;
 	display:block;
@@ -385,11 +385,11 @@ ul{
 }
 
 .main #num .num_bg a.douga{
-	PADDING-LEFT: 27px; BACKGROUND: url(/images/icon_douga.gif) no-repeat 0px 6px;
+	PADDING-LEFT: 27px; BACKGROUND: url(images/icon_douga.gif) no-repeat 0px 6px;
 }
 .main #num .num_bg a.douga:hover{
 	color:#FF8e34;
-	BACKGROUND: url(/images/icon_douga.gif) no-repeat 3px 7px;
+	BACKGROUND: url(images/icon_douga.gif) no-repeat 3px 7px;
 }
 .main #num .num_bg a.mc{
 	PADDING-LEFT: 27px; BACKGROUND: url(/web/20101005085015im_/http://bilibili.us/templets/images/icon_mc.gif) no-repeat 0px 6px;
